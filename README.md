@@ -5,7 +5,7 @@ Highly customizable dashboard app with great layout and animations
 
 ## Installation
 
-Install my-project with npm
+Install Dashboard-App with npm
 
 ```bash
   cd Dashboard-App
