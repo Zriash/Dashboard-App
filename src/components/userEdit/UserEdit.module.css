@@ -1,0 +1,126 @@
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftDiv {
+  padding: 6px;
+  border-radius: 12px;
+  border-left: 2px solid rgba(47, 153, 153, 0.664);
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.input {
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.uploadDiv {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img {
+  width: 100px;
+  height: 125px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 7px;
+}
+
+.uploadLabel {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 10px;
+  margin: 1px;
+  cursor: pointer;
+  transition: all 0.17s ease-in;
+  transition-property: color, background-color;
+}
+
+.uploadLabel:hover {
+  margin: 0;
+  color: rgb(39, 146, 39);
+  background-color: aliceblue;
+  border: 1px solid rgb(39, 146, 39);
+  border-radius: 12px;
+}
+
+.imgUpload {
+  display: none;
+}
+
+.iconUpload {
+  margin-right: 5px;
+}
+
+.labelTxt {
+  text-align: center;
+}
+
+.btnSubmit {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: rgb(11, 11, 141);
+  color: aliceblue;
+  font-weight: 600;
+  transition: all 0.15s ease-in;
+}
+
+.btnSubmit:hover {
+  background-color: rgba(11, 11, 141, 0.781);
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.12);
+  }
+  30% {
+    transform: scale(1.16);
+  }
+  50% {
+    transform: scale(1.19);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

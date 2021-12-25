@@ -1,0 +1,52 @@
+.container {
+  flex: 5;
+  padding: 20px;
+  background-color: rgb(230, 228, 228);
+}
+
+.titleContainer {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+}
+
+.btnCreate {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  color: aliceblue;
+  background-color: rgb(47, 153, 153);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.btnCreate:hover {
+  color: rgb(47, 153, 153);
+  background-color: aliceblue;
+  border: 1px solid rgb(47, 153, 153);
+}
+
+.user {
+  display: flex;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  margin-right: 10px;
+  box-shadow: 3px 4px 13px 2px #b9b9b9;
+  background-color: #f7f7f7;
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 3px 4px 13px 2px #b9b9b9;
+  background-color: #f7f7f7;
+}

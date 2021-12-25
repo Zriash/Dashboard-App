@@ -1,0 +1,23 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebarListItem {
+  padding: 5px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(66, 66, 71);
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}

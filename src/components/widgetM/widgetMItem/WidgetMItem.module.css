@@ -1,0 +1,56 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.userImg {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.userText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.jobTitle {
+  font-weight: 300;
+}
+
+.btnLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+  background-color: rgb(100, 173, 27);
+  color: rgb(248, 242, 242);
+}
+
+.btnIcon {
+  font-size: 16px;
+  margin-right: 5px;
+}

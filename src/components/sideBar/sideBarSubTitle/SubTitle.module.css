@@ -1,0 +1,17 @@
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  padding: 3px 4px;
+  font-size: 13px;
+  color: rgb(245, 235, 235);
+  background-color: rgb(36, 36, 34);
+  border-radius: 8px;
+  cursor: default;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}

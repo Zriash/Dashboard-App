@@ -1,0 +1,25 @@
+.tableRow {
+}
+
+.tableCellUser {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tableCellDate {
+}
+.tableCellAmount {
+}
+
+.tableImg {
+  margin-right: 7px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.tableUsername {
+}

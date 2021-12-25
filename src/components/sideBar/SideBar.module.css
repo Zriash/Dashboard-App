@@ -1,0 +1,20 @@
+.sidebar {
+  flex: 1;
+  overflow: auto;
+  min-width: 150px;
+  height: calc(100vh - 50px);
+  background-color: #282b2b;
+  position: sticky;
+  top: 50px;
+}
+
+.sidebarWrapper {
+  padding: 20px;
+  color: rgb(230, 219, 219);
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+  height: 0;
+  width: 0;
+}

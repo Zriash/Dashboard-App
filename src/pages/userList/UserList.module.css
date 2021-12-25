@@ -1,0 +1,51 @@
+.userList {
+  flex: 5;
+  margin: 20px;
+}
+
+.tableUser {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.avatarImg {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.tableBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btnEdit {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #62ad89;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.btnDelete {
+    color: rgb(151, 54, 54);
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+}
+
+.btnEdit:hover {
+    color: #62ad89b4;
+    background-color: rgb(233, 255, 246);
+}
+
+.btnDelete:hover {
+    color: rgb(243, 49, 49);
+}

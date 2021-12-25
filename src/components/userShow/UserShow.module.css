@@ -1,0 +1,63 @@
+.item {
+  border: 1px solid rgba(0, 128, 128, 0.575);
+  border-top: none;
+  border-right: none;
+  border-radius: 18px;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.userImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.userText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.jobTitle {
+  font-weight: 300;
+}
+
+.itemBottem {
+  padding: 15px;
+  border: 1px solid rgba(0, 128, 128, 0.11);
+  border-radius: 12px;
+  border-top: none;
+  border-right: none;
+}
+
+.btmTitle {
+  color: rgba(138, 138, 138, 0.678);
+  margin-top: 15px;
+  padding: 10px 0;
+  font-weight: 600;
+  border-top: 1px solid rgba(0, 128, 128, 0.11);
+}
+
+.infoDiv {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.infoTitle {
+}
